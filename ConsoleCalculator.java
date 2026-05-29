@@ -28,7 +28,7 @@ public class ConsoleCalculator {
         int choice;
         double num1, num2, result;
 
-        System.out.println(" ****JAVA CONSOLE CALCULATOR****");
+        System.out.println("****JAVA CONSOLE CALCULATOR****");
 
         do {
             System.out.println("\nChoose an Operation:");
