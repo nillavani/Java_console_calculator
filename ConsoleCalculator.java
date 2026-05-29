@@ -2,22 +2,18 @@ import java.util.Scanner;
 
 public class ConsoleCalculator {
 
-    // Method for addition
     public static double add(double a, double b) {
         return a + b;
     }
 
-    // Method for subtraction
     public static double subtract(double a, double b) {
         return a - b;
     }
 
-    // Method for multiplication
     public static double multiply(double a, double b) {
         return a * b;
     }
 
-    // Method for division
     public static double divide(double a, double b) {
         if (b == 0) {
             System.out.println("Error: Cannot divide by zero.");
@@ -32,10 +28,9 @@ public class ConsoleCalculator {
         int choice;
         double num1, num2, result;
 
-        System.out.println("===== JAVA CONSOLE CALCULATOR =====");
+        System.out.println(" ****JAVA CONSOLE CALCULATOR****");
 
         do {
-            // Display menu
             System.out.println("\nChoose an Operation:");
             System.out.println("1. Addition");
             System.out.println("2. Subtraction");
@@ -48,14 +43,12 @@ public class ConsoleCalculator {
 
             if (choice >= 1 && choice <= 4) {
 
-                // Get user input
                 System.out.print("Enter first number: ");
                 num1 = sc.nextDouble();
 
                 System.out.print("Enter second number: ");
                 num2 = sc.nextDouble();
 
-                // Perform operation
                 switch (choice) {
 
                     case 1:
